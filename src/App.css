@@ -1,0 +1,19 @@
+div#NagishLiTrigger{
+    right: 30px;
+    bottom: 0 !important;
+    top: 100px;
+    filter: hue-rotate(240deg);
+}
+
+div#NagishLiWidget{
+    left:auto;
+    right: 0;
+    transform: translate(120%, 0);
+}
+
+div#NagishLiWidget.nagishli-widget-show{
+    left: auto;
+    right: 10px;
+    transform: translate(0, 0);
+}
+

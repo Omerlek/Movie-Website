@@ -9,8 +9,7 @@ function VodList(props) {
                 <div className='row'>
                     {props.vod_ar.map(item => {
                         return (
-                            <VodItem key={item.imdbID
-                            } item = { item } />
+                            <VodItem key={item.imdbID} item = { item } />
                         )       
                     })}
                 </div>
